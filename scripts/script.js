@@ -9,14 +9,7 @@ new Vue({
       currentTime: null,
       isTimerPlaying: false,
       tracks: [
-        {
-          name: "Neyim Var ki ",
-          artist: "CEZA feat. Sagopa K",
-          cover: "img/neyimvarki.jpg",
-          source: "mp3/neyimvarki.mp3",
-          url: "https://www.youtube.com/watch?v=4AWJBMawRZk",
-          favorited: true
-        },
+       
         {
           name: "Mekanın Sahibi",
           artist: "Norm Ender",
@@ -25,7 +18,14 @@ new Vue({
           url: "https://www.youtube.com/watch?v=z3wAjJXbYzA",
           favorited: false
         },
-      
+       {
+          name: "Neyim Var ki ",
+          artist: "CEZA feat. Sagopa K",
+          cover: "img/neyimvarki.jpg",
+          source: "mp3/neyimvarki.mp3",
+          url: "https://www.youtube.com/watch?v=4AWJBMawRZk",
+          favorited: true
+        },
             {
           name: "Neyimvar",
           artist: "Leonard Cohen",
